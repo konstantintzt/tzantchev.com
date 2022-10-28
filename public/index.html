@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Konstantin Tzantchev's website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>    
+    <script>
+        function getEmail() {
+            let spoofed = "7z4n7ch3v [at] ucl4 . 3du";
+            return spoofed
+                .replace(" [at] ", "@")
+                .replace(" . ", ".")
+                .replace("7", "t")
+                .replace("7", "t")
+                .replace("4", "a")
+                .replace("4", "a")
+                .replace("3", "e")
+                .replace("3", "e")
+        }
+    </script>
+</head>
+<body style="margin: 20px">
+    <h1>Hi! I'm Konstantin, welcome to my site!</h1>
+    <br>
+    <h2>Who am I?</h2>
+    <div class="card">
+        <div style="padding: 5px">I'm currently an undergraduate student at UCLA studying CS and planning to double major in math! I've been coding since I was 14 years old and I don't plan on stopping any soon!</div>
+        <div style="padding: 5px">I'm really interested in software engineering as a whole, but back-end in particular fascinates me through its intricacy and the logic required to build something robust.</div>
+        <div style="padding: 5px">In the near future, I'm planning on exploring the fascinating realm of AI and Machine Learning, as I believe there is still a lot to be done in the field.</div>
+        <div style="padding: 5px">I've recently gotten into cybersecurity as well and I'll very soon be getting back to competitive programming after a two year-long break!</div>
+
+    </div>
+    <br>
+    <h2>Interested? Learn more here!</h2>
+    <div class="card">
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+                <div style="padding: 5px"><b>GitHub</b> - see all my open-source projects!</div>
+                <div style="padding: 5px"><a href="https://github.com/konstantintzt" target="_blank"><button type="button" class="btn btn-primary">Check it out!</button>
+                </a></div>
+            </li>
+            <li class="list-group-item">
+                <div style="padding: 5px"><b>LinkedIn</b> - see what I've been up to recently!</div>
+                <div style="padding: 5px"><a href="https://linkedin.com/in/tzantchev" target="_blank"><button type="button" class="btn btn-primary">Check it out!</button>
+                </a></div>
+           </li>
+            <li class="list-group-item">
+                <div style="padding: 5px"><b>YouTube</b> - see some YouTube videos that I've made about some of my projects!</div>
+                <div style="padding: 5px"><a href="https://www.youtube.com/channel/UCKfHdzN4z0aLeee51Lvm2Tw" target="_blank"><button type="button" class="btn btn-primary">Check it out!</button>
+                </a></div>
+            </li>
+            <li class="list-group-item">
+                <div style="padding: 5px"><b>Email</b> - the best way to reach me!</div>
+                <div style="padding: 5px"><a href="javascript:void(0);" onclick="window.open('mailto:'+getEmail(),'_blank')"><button type="button" class="btn btn-primary">Email me!</button>
+                </a></div>
+            </li>
+        </ul>
+    </div>
+    <br>
+    <h2>My latest project, an interactive plane tracker!</h2>
+    <div class="card">
+        <div style="padding: 5px">Using the Google Maps Geocoding API and the OpenSky Network API, I've been able to make this interactive plane tracker website that tells you which planes are in the skies near you.</div>
+        <div style="padding: 5px">That's pretty cool!</div>
+        <div style="padding: 5px"><a href="http://tzantchev.com/planes"><button type="button" class="btn btn-primary">Check it out!</button>
+        </a></div>
+    </div>
+
+    <footer style="position: sticky">
+        <br>
+        <p>©️ Konstantin Tzantchev, 2022 | <a href="https://github.com/konstantintzt/tzantchev.com">GitHub</a></p>
+    </footer>
+</body>
+</html>
