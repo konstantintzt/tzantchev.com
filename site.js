@@ -17,6 +17,6 @@ https.createServer({
     cert: fs.readFileSync("cert.pem"),
     ca: fs.readFileSync("chain.pem")
 }, app)
-.listen(3000, function() {
+.listen(process.env.PORT, function() {
     console.log("website running on port " + process.env.PORT)
 })
