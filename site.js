@@ -9,8 +9,7 @@ dotenv.config()
 
 const app = express()
 
-app.use(express.static("public"))
-// app.use(favicon(path.join(__dirname, "public", "favicon.ico")))
+app.use(express.static("public", { extensions: ['html'] }))
 
 https.createServer({
     key: fs.readFileSync("privkey.pem"),
