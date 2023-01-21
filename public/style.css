@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Lato&display=swap');
 
+html {
+    min-height: 100%;
+}
+
 body {
     background-image: radial-gradient(circle at top left, #610084 -25%, #c14826 100%);
     display: flex;
@@ -38,6 +42,16 @@ h4 {
     color: #FAF9F6;
     font-family: 'IBM Plex Mono', monospace;
     font-size: 27pt;
+    font-weight: 400;
+    margin-left: 100px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+h5 {
+    color: #FAF9F6;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 22pt;
     font-weight: 400;
     margin-left: 100px;
     margin-top: 0;
